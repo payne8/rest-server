@@ -1,4 +1,4 @@
-FROM alpine
+FROM armhf/alpine:latest
 
 ENV DATA_DIRECTORY /data
 ENV PASSWORD_FILE /data/.htpasswd
