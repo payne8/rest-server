@@ -16,4 +16,4 @@ else
     rm -f "$PASSWORD_FILE"
 fi
 
-exec rest-server --path "$DATA_DIRECTORY" $OPTIONS --no-auth
+exec rest-server --path "$DATA_DIRECTORY" $OPTIONS
